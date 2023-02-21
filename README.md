@@ -3,31 +3,42 @@
 
 
 
-#Laravel 10.0 Practice project
+# Laravel 10.0 Practice project
 
-PHP v8.1.9
-Laravel v10.0
+### PHP v8.1.9
+### Laravel v10.0
 
-
+```
 git clone https://github.com/qadeesz/Chirper-project-with-Blade.git
 cd Chirper-project-with-Blade
+```
 
-
+## make database file and connect in .env
+```
 $ touch database/db.sqlite
-update DB name in .env
+```
 DB_CONNECTION=sqlite
 
+
+## install composer dependancies
+```
 composer update
 composer require laravel/breeze --dev
 php artisan breeze:install blade
 php artisan migrate
+```
 
+## install client side dependancies
+```
 npm install
 npm run build
+```
 
-
+## run project
+```
 php artisan serve
+```
 Server running on [http://127.0.0.1:8000].
 
 
-Refrance: https://bootcamp.laravel.com/blade/installation
+[Refrance Project Link]: https://bootcamp.laravel.com/blade/installation
