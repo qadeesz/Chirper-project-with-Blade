@@ -3,7 +3,7 @@
 
 
 
-# Laravel 10.0 Practice project
+# Laravel Practice project
 
 ### PHP v8.1.9
 ### Laravel v10.0
@@ -13,12 +13,13 @@ git clone https://github.com/qadeesz/Chirper-project-with-Blade.git
 cd Chirper-project-with-Blade
 ```
 
-## make database file and connect in .env
+## Make database file and connect in .env
 ```
 $ touch database/db.sqlite
-```
-DB_CONNECTION=sqlite
 
+-- update in .env
+DB_CONNECTION=sqlite
+```
 
 ## install composer dependancies
 ```
@@ -41,4 +42,4 @@ php artisan serve
 Server running on [http://127.0.0.1:8000].
 
 
-[Refrance Project Link]: https://bootcamp.laravel.com/blade/installation
+[Refrance Project Link](https://bootcamp.laravel.com/blade/installation)
